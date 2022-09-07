@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "donation",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Donation_System.sol": "DonationSystem"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Donation_System.sol": {
+			"keccak256": "0xbb2501036483c79d01d97e7c25c7ae863342451cd02f6d656a43b7a903c505c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c22303999af47e801164dc7acb5dfb7e89ae1a6893c11fcee8b84a2867a726d",
+				"dweb:/ipfs/QmWn48HxUXXGXAMrJSiqBPSPvAHmuGqjGZPnqdWRPhfVXF"
+			]
+		}
+	},
+	"version": 1
+}
