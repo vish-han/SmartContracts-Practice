@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "PropertyDatabase",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "area",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_area",
+						"type": "uint256"
+					}
+				],
+				"name": "purchaseProperty",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PropertyRegistry.sol": "propertyRegistry"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PropertyRegistry.sol": {
+			"keccak256": "0x80aa31f171faa73e2eba7ae83a07f1ccbcfe56e63e058c6c5c43e3bd5eb775ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f670146ccb7cd7c420f864300fe1e87fd6da7d86de20d4fd1bb5d848a7a4ef3",
+				"dweb:/ipfs/QmchRuB4DokmGygdJ7ym8gSpmNrJ4dwfPYtXhcmf4LvfWC"
+			]
+		}
+	},
+	"version": 1
+}

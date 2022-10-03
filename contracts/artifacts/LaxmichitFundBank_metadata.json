@@ -6,19 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "_id",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -135,11 +122,11 @@
 	},
 	"sources": {
 		"contracts/LaxmiChitFund.sol": {
-			"keccak256": "0x7bb53877898b661069eaca37c5d24a54a4dd3744a62bfb316b2f527979a9ac2e",
+			"keccak256": "0xeeb1133bd2ff3ad8664b51403600474255d7e4d9b795530b2b620a8545ad4b63",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2e66a6afbb4a38c688fca8bedfda31d5132489caf6925426148089ab4af700bd",
-				"dweb:/ipfs/QmRKhj8AjcT9v9urTnSNXihtvc3ebm9YdeuJgTBfiRwX4p"
+				"bzz-raw://c8a32ca93b6097a8d78ab2e28df28802102a2e67acb83644fe1393b5da1686ad",
+				"dweb:/ipfs/QmcJ1iRMWGD5WFT3EizDJceJwUm1zZP83k3JcJcDQGTiL4"
 			]
 		}
 	},
